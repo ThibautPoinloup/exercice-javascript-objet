@@ -1,14 +1,3 @@
-// let voiture = {
-//     marque: 'fiat',
-//     modèle: 'punto',
-//     année: 2000,
-//     conduire: function(){
-//         console.log(`La voiture de la marque ${this.marque} modèle ${this.modèle} de l'année ${this.année} roule sur la route.`)
-//     }
-// }
-
-// console.log(voiture.conduire());
-
 class Voiture {
 
     constructor(marque, modele, annee){
@@ -16,7 +5,7 @@ class Voiture {
         this.modele = modele;
         this.annee = annee;
     }
-    
+
     //utilisation de get pour enlever les parentheses dans mon console.log()
     //sans get ===> console.log(car1.phraseConduire())
     get conduire(){
